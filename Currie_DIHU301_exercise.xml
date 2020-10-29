@@ -75,15 +75,16 @@
             <name type="place">17, Chatham Street,</name>     
             <date>Wednesday.</date>My dearest Mina,</opener>
           <p>
-            <said aloud="false" who="Lucy">I must say you tax me very unfairly with being a
+            <said aloud="false" who="Lucy">
+              I must say you tax me very unfairly with being a
             bad correspondent. I wrote to you _twice_ since we parted, and your last letter was only
-            your _second_. Besides, I have nothing to tell you. There is really nothing to interest
+            your second. Besides, I have nothing to tell you. There is really nothing to interest
             you. Town is very pleasant just now, and we go a good deal to picture-galleries and for
             walks and rides in the park. As to the tall, curly-haired man, I suppose it was the one
             who was with me at the last Pop. Some one has evidently been telling tales. That was Mr.
             Holmwood. He often comes to see us, and he and mamma get on very well together; they
             have so many things to talk about in common. We met some time ago a man that would just
-            _do for you_, if you were not already engaged to Jonathan. He is an excellent _parti_,
+            do for you, if you were not already engaged to Jonathan. He is an excellent parti,
             being handsome, well off, and of good birth. He is a doctor and really clever. Just
             fancy! He is only nine-and-twenty, and he has an immense lunatic asylum all under his
             own care. Mr. Holmwood introduced him to me, and he called here to see us, and often
@@ -100,15 +101,24 @@
             have told all our secrets to each other since we were _children_; we have slept together
             and eaten together, and laughed and cried together; and now, though I have spoken, I
             would like to speak more. Oh, Mina, couldn't you guess? I love him. I am blushing as I
-            write, for although I _think_ he loves me, he has not told me so in words. But oh, Mina,
+            write, for although I think he loves me, he has not told me so in words. But oh, Mina,
             I love him; I love him; I love him! There, that does me good. I wish I were with you,
             dear, sitting by the fire undressing, as we used to sit; and I would try to tell you
             what I feel. I do not know how I am writing this even to you. I am afraid to stop, or I
             should tear up the letter, and I don't want to stop, for I _do_ so want to tell you all.
             Let me hear from you _at once_, and tell me all that you think about it. Mina, I must
-            stop. Good-night. Bless me in your prayers; and, Mina, pray for my happiness. "LUCY.
-            "P.S.--I need not tell you this is a secret. Good-night again. "L."
-            </said></p><p>
+            stop. Good-night. Bless me in your prayers; and, Mina, pray for my happiness. </said></p>
+            <closer>
+            <signed>LUCY.</signed>
+              <postscript>
+              <label>P.S.</label>
+              <p><said>I need not tell you this is a secret.</said></p>
+              </postscript>
+              <salute>Good-night again.</salute>
+              <signed>L.</signed>
+            </closer>
+        </div>
+          <p>
               _Letter, Lucy
             Westenra to Mina Murray_. "_24 May_. "My dearest Mina,-- "Thanks, and thanks, and thanks
             again for your sweet letter. It was so nice to be able to tell you and to have your
