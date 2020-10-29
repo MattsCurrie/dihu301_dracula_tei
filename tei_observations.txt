@@ -1,0 +1,7 @@
+# Tags
+
+
+<date when="year-month-day"></date>
+ - must be encapsulated	within a <p></p>
+
+<head> must be before <p> tags

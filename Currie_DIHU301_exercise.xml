@@ -28,7 +28,7 @@
         <head>CHAPTER V</head>
         <div type="letter">
           <head type="letterToFrom">Letter from Miss Mina Murray to Miss Lucy Westenra.</head>
-          <dateline>9 May.</dateline>
+          <date when="----05-09">9 May.</date>
           <head type="letterOpener">My dearest Lucy,</head> Forgive my long delay in writing, but I
           have been simply overwhelmed with work. The life of an assistant schoolmistress is
           sometimes trying. I am longing to be with you, and by the sea, where we can talk together
