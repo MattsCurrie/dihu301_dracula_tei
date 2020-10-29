@@ -110,19 +110,30 @@
             stop. Good-night. Bless me in your prayers; and, Mina, pray for my happiness. </said></p>
             <closer>
             <signed>LUCY.</signed>
+            </closer>
               <postscript>
               <label>P.S.</label>
               <p><said>I need not tell you this is a secret.</said></p>
               </postscript>
+            <closer>
               <salute>Good-night again.</salute>
               <signed>L.</signed>
             </closer>
         </div>
-          <p>
-              _Letter, Lucy
-            Westenra to Mina Murray_. "_24 May_. "My dearest Mina,-- "Thanks, and thanks, and thanks
+        <div type="letter" n="3">
+          
+          
+              
+              <head type="letterToFrom">Letter, Lucy
+            Westenra to Mina Murray. </head> 
+          <opener><dateline><date when="--05-24">24 May</date></dateline><salute>My dearest Mina,</salute> 
+              </opener>
+          <p><said aloud="false" who="Lucy">"Thanks, and thanks, and thanks
             again for your sweet letter. It was so nice to be able to tell you and to have your
-            sympathy. "My dear, it never rains but it pours. How true the old proverbs are. Here am
+            sympathy.</said></p>
+            <p>
+              <said aloud="false" who="Lucy">
+            My dear, it never rains but it pours. How true the old proverbs are. Here am
             I, who shall be twenty in September, and yet I never had a proposal till to-day, not a
             real proposal, and to-day I have had three. Just fancy! THREE proposals in one day!
             Isn't it awful! I feel sorry, really and truly sorry, for two of the poor fellows. Oh,
@@ -159,7 +170,11 @@
             a poor fellow, whom you know loves you honestly, going away and looking all
             broken-hearted, and to know that, no matter what he may say at the moment, you are
             passing quite out of his life. My dear, I must stop here at present, I feel so
-            miserable, though I am so happy. "_Evening._ "Arthur has just gone, and I feel in better
+            miserable, though I am so happy. 
+            
+            "_Evening._
+            
+            "Arthur has just gone, and I feel in better
             spirits than when I left off, so I can go on telling you about the day. Well, my dear,
             number Two came after lunch. He is such a nice fellow, an American from Texas, and he
             looks so young and so fresh that it seems almost impossible that he has been to so many
@@ -272,6 +287,7 @@
             drink too deep to a certain pair of eyes. Come! "Yours, as ever and always, "QUINCEY P.
             MORRIS." _Telegram from Arthur Holmwood to Quincey P. Morris._ "_26 May._ "Count me in
             every time. I bear messages which will make both your ears tingle. "ART." </p>
+        </div>
         </div>
         </div>
       </div>
