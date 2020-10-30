@@ -1,7 +1,10 @@
-# DIHU301 - Digital Edition
+# DIHU301
 
 TEI-XML used to mark up chapter 5 of Bram Stoker's Dracula
 
-## Why use GitHub for an individual's assignment?
-
-I have been using a variety of school computers recently because I am in the process of getting a new computer
+## To Do
+- [x] TEI markup draft of Chapter 5
+- [ ] Remove Imperfections in Text
+	* imperfections may still be present:
+		* Unnecessary Quotes
+		* Underscores could be replaced with relevant emphasis tag
