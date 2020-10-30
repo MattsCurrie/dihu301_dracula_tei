@@ -172,7 +172,7 @@
             passing quite out of his life. My dear, I must stop here at present, I feel so
             miserable, though I am so happy. </said></p>
             
-            <p><said aloud="false" who="Lucy"><time when="evening">_Evening._</time></said></p>
+            <p><said aloud="false" who="Lucy"><date when="--05-24">Evening.</date></said></p>
             
 			<p><said aloud="false" who="Lucy">
             Arthur has just gone, and I feel in better
@@ -257,7 +257,7 @@
             to have a pretty lonely walk between this and Kingdom Come. Won't you give me one kiss?
             It'll be something to keep off the darkness now and then. You can, you know, if you
             like, for that other good fellow--he must be a good fellow, my dear, and a fine fellow,
-            or you could not love him--hasn't spoken yet.' </q>That quite won me, Mina, for it _was_
+            or you could not love him--hasn't spoken yet.'</q> That quite won me, Mina, for it _was_
             brave and sweet of him, and noble, too, to a rival--wasn't it?--and he so sad; so I
             leant over and kissed him. He stood up with my two hands in his, and as he looked down
             into my face--I am afraid I was blushing very much--he said:--</said></p>
@@ -271,7 +271,7 @@
             unhappy when there are lots of girls about who would worship the very ground he trod on?
             I know I would if I were free--only I don't want to be free. My dear, this quite upset
             me, and I feel I cannot write of happiness just at once, after telling you of it; and I
-            don't wish to tell of the number three until it can be all happy.</said><p>
+            don't wish to tell of the number three until it can be all happy.</said></p>
 			
 			<closer>
 			<salute>Ever your loving</salute>
@@ -290,7 +290,8 @@
 			<p><said aloud="false" who="Lucy">
 			Good-bye.</said></p> 
 			</postscript> 
-			</div>
+        </div>
+          
 			<div type="diaryEntry" n="1">
 			<!-- How do we handle non TEI metadata? -->
 			<head type="diaryEntry">
@@ -332,7 +333,7 @@
             paramount, and only accident or a series of accidents can balance it.</said></p></div>
 			
 			<div type="letter" n="4">
-			<head typer="toFrom">
+			<head type="toFrom">
 			_Letter, Quincey
             P. Morris to Hon. Arthur Holmwood._</head>
 			
@@ -355,7 +356,7 @@
 			<signed>QUINCEY P. MORRIS.</signed>
 			</closer>
 			</div>
-			<div tyue="telegram">
+			<div type="telegram">
 			<head type="toFrom">
 			_Telegram from Arthur Holmwood to Quincey P. Morris._ </head>
 			<opener><dateline><date when="--05-26">26 May.</date></dateline></opener>
@@ -364,9 +365,6 @@
 			</said></p>
 			<closer>
 			<signed>ART.</signed></closer>
-			</div>
-        </div>
-        </div>
         </div>
       </div>
 
