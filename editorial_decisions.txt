@@ -1,0 +1,1 @@
+Enclosed all words/phrases surrounded by underscores with an <emph> tag as the underscores correspond with the italics used in my print edition. Then, removed the underscores from the text.

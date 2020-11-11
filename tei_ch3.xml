@@ -7,24 +7,59 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>The shortest TEI Document Imaginable</title>
+	   <title>Dracula: CHAPTER III</title>
+	  	<author>
+		  	<persName>
+				  Bram Stoker
+		  	</persName>
+	  	</author>
    </titleStmt>
    <publicationStmt>
-    <p>First published as part of TEI P2, this is the P5
-         version using a name space.</p>
-   </publicationStmt>
+	  	<ab>
+			Public Domain in the USA
+	  	</ab>
+	 </publicationStmt>
    <sourceDesc>
-    <p>No source: this is an original work.</p>
+		<biblStruct>
+			<monogr>
+				<author>Bram Stoker</author>
+				<title>"CHAPTER III" Dracula</title>
+				<edition>The Project Gutenberg EBook of Dracula</edition>
+				<imprint>
+					<publisher>Project Gutenberg</publisher>
+					<date when="2013-08-16">16 August 2013</date>
+				</imprint>
+			</monogr>
+		</biblStruct>
    </sourceDesc>
   </fileDesc>
+	<encodingDesc>
+		<projectDesc><p>
+			My editorial approach mixes the approaches of both context and content focused editing.
+			Context-wise, I link textual phrases to video clips of the 1931 Dracula Filmic adaption (note that each
+			clip has a note explaining its relevance) to provide a visualization for how certain aspects of
+			the text were adapted. Content-wise, I mark up words and phrases in the text that illustrate themes in
+			the text.
+		</p></projectDesc>
+		<p>
+			In my mark up, I enclosed all words/phrases surrounded by underscores with an &lt;emph&gt; tag as the 
+			underscores correspond with the italics used in my print edition. Then, removed the underscores from 
+			the text.	The starting date (May 8), while not directly stated in this chapter, is implied by the 
+			"continued" in the header that this entry continues on the same journal entry from previous chapter
+			which began on May 8th. All punctuation not mentioned was left as found in the Project Gutenberg
+			Edition of Dracula. Furthermore, formatting details, such as Journal Entries and "*  *  *  *  *" 
+			figures were divided using the &lt;div&gt; tag.
+		</p>
+	</encodingDesc>
  </teiHeader>
  <text>
   <body>
 	  <div type="chapter">
 		  <head>CHAPTER III</head>
 			<div type="journalEntry" n=1>
-				<head>JONATHAN HARKER'S JOURNAL--_continued_</head>
-				<p>
+				<head>JONATHAN HARKER'S JOURNAL--<emph>continued</emph></head>
+
+				<p><said who="#johnathan" toWhom="#johnathan">
 				When I found that I was a prisoner a sort of wild feeling came over me.
 				I rushed up and down the stairs, trying every door and peering out of
 				every window I could find; but after a little the conviction of my
@@ -42,7 +77,8 @@
 				open. I am, I know, either being deceived, like a baby, by my own fears,
 				or else I am in desperate straits; and if the latter be so, I need, and
 				shall need, all my brains to get through.
-				</p>
+				</said></p>
+
 				<p>
 				I had hardly come to this conclusion when I heard the great door below
 				shut, and knew that the Count had returned. He did not come at once into
@@ -71,15 +107,17 @@
 				himself, if I turn the conversation that way. I must be very careful,
 				however, not to awake his suspicion.
 				</p>
-				<!-- Not sure how to mark this, I think it was somewhere in her video -->
-				<p>  *       *       *       *       *  </p>
+
+			</div>
+			<div><figure><p>*       *       *       *       *</p></figure></div>
+
 				<p>
 
-				_Midnight._--I have had a long talk with the Count. I asked him a few
+				<emph>Midnight.</emph>--I have had a long talk with the Count. I asked him a few
 				questions on Transylvania history, and he warmed up to the subject
 				wonderfully. In his speaking of things and people, and especially of
 				battles, he spoke as if he had been present at them all. This he
-				afterwards explained by saying that to a _boyar_ the pride of his house
+				afterwards explained by saying that to a <emph>boyar</emph> the pride of his house
 				and name is his own pride, that their glory is his glory, that their
 				fate is his fate. Whenever he spoke of his house he always said "we,"
 				and spoke almost in the plural, like a king speaking. I wish I could put
@@ -90,8 +128,8 @@
 				though he would crush it by main strength. One thing he said which I
 				shall put down as nearly as I can; for it tells in its way the story of
 				his race:--
-
 				</p>
+
 				<p><said><q>
 				"We Szekelys have a right to be proud, for in our veins flows the blood
 				of many brave races who fought as the lion fights, for lordship. Here,
@@ -138,18 +176,19 @@
 				Hapsburgs and the Romanoffs can never reach. The warlike days are over.
 				Blood is too precious a thing in these days of dishonourable peace; and
 				the glories of the great races are as a tale that is told."
-
 				</q></said></p>
+
 				<p>
-				It was by this time close on morning, and we went to bed. (_Mem._, this
+				It was by this time close on morning, and we went to bed. (<emph>Mem.</emph>, this
 				diary seems horribly like the beginning of the "Arabian Nights," for
 				everything has to break off at cockcrow--or like the ghost of Hamlet's
 				father.)
 				</p>
-				<p>  *       *       *       *       *  </p>
+
+				<div><figure><p>*       *       *       *       *</p></figure></div>
 
 				<p>
-				_12 May._--Let me begin with facts--bare, meagre facts, verified by
+				<emph>12 May.</emph>--Let me begin with facts--bare, meagre facts, verified by
 				books and figures, and of which there can be no doubt. I must not
 				confuse them with experiences which will have to rest on my own
 				observation, or my memory of them. Last evening when the Count came from
@@ -305,10 +344,10 @@
 				and mystery which seemed closing around me.
 				</p>
 
-				<p>*       *       *       *       *</p>
+				<div><figure><p>*       *       *       *       *</p></figure></div>
 
 				<p>
-				_Later._--I endorse the last words written, but this time there is no
+				<emph>Later.</emph>--I endorse the last words written, but this time there is no
 				doubt in question. I shall not fear to sleep in any place where he is
 				not. I have placed the crucifix over the head of my bed--I imagine that
 				my rest is thus freer from dreams; and there it shall remain.
@@ -347,7 +386,7 @@
 				and amuse a man when he is a prisoner. But my very feelings changed to
 				repulsion and terror when I saw the whole man slowly emerge from the
 				window and begin to crawl down the castle wall over that dreadful abyss,
-				_face down_ with his cloak spreading out around him like great wings. At
+				<emph>face down</emph> with his cloak spreading out around him like great wings. At
 				first I could not believe my eyes. I thought it was some trick of the
 				moonlight, some weird effect of shadow; but I kept looking, and it could
 				be no delusion. I saw the fingers and toes grasp the corners of the
@@ -363,10 +402,10 @@
 				encompassed about with terrors that I dare not think of....
 				</p>
 
-				<p>*       *       *       *       *</p>
+				<div><figure><p>*       *       *       *       *</p></figure></div>
 
 				<p>
-				_15 May._--Once more have I seen the Count go out in his lizard fashion.
+					<emph>15 May.</emph>--Once more have I seen the Count go out in his lizard fashion.
 				He moved downwards in a sidelong way, some hundred feet down, and a good
 				deal to the left. He vanished into some hole or window. When his head
 				had disappeared, I leaned out to try and see more, but without
@@ -421,10 +460,10 @@
 				which mere "modernity" cannot kill.
 				</p>
 
-				<p>  *       *       *       *       * </p>
+				<div><figure><p>*       *       *       *       *</p></figure></div>
 
 				<p>
-				_Later: the Morning of 16 May._--God preserve my sanity, for to this I
+				<emph>Later: the Morning of 16 May.</emph>--God preserve my sanity, for to this I
 				am reduced. Safety and the assurance of safety are things of the past.
 				Whilst I live on here there is but one thing to hope for, that I may not
 				go mad, if, indeed, I be not mad already. If I be sane, then surely it
@@ -534,9 +573,6 @@
 				<p>
 				But at that instant, another sensation swept through me as quick as
 				lightning. I was conscious of the presence of the Count, and of his
-				</p>
-
-				<p>
 				being as if lapped in a storm of fury. As my eyes opened involuntarily I
 				saw his strong hand grasp the slender neck of the fair woman and with
 				giant's power draw it back, the blue eyes transformed with fury, the
@@ -596,5 +632,33 @@
 			</div>
 		</div>
   </body>
+	<back>
+		<div type="personography">
+			<listPerson>
+				<person xml:id="dracula">
+					<persName>Count Dracula</persName>
+					<birth>
+						<placeName></placeName>
+					</birth>
+					<death>November???</death>
+				</person>
+
+				<person xml:id="johnathan">
+					<persName>Johnathan Harker</persName>
+					<birth>
+						<placeName>England</placeName>
+					</birth>
+					<death notBefore="--11-06">Still Alive</death>
+				</person>
+			</listPerson>
+		</div>
+		<div type="themes">
+			<interGrp xml:id="health">
+				<interp xml:id="madness">Feeling of insanity</interp>
+				<interp xml:id="compulsion">Need</interp>
+
+			</interGrp>
+		</div>
+	</back>
  </text>
 </TEI>
