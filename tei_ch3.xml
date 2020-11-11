@@ -56,16 +56,16 @@
   <body>
 	  <div type="chapter">
 		  <head>CHAPTER III</head>
-			<div type="journalEntry" n=1>
+			<div type="journalEntry" n="1">
 				<head>JONATHAN HARKER'S JOURNAL--<emph>continued</emph></head>
 
-				<p><said who="#johnathan" toWhom="#johnathan">
-				When I found that I was a prisoner a sort of wild feeling came over me.
+				<p><said aloud="false" who="#johnathan">
+				<seg corresp="#madness">When I found that I was a prisoner a sort of wild feeling came over me.
 				I rushed up and down the stairs, trying every door and peering out of
 				every window I could find; but after a little the conviction of my
 				helplessness overpowered all other feelings. When I look back after a
 				few hours I think I must have been mad for the time, for I behaved much
-				as a rat does in a trap. When, however, the conviction had come to me
+				as a rat does in a trap.</seg> When, however, the conviction had come to me
 				that I was helpless I sat down quietly--as quietly as I have ever done
 				anything in my life--and began to think over what was best to be done. I
 				am thinking still, and as yet have come to no definite conclusion. Of
@@ -110,7 +110,7 @@
 
 			</div>
 			<div><figure><p>*       *       *       *       *</p></figure></div>
-
+			<div>
 				<p>
 
 				<emph>Midnight.</emph>--I have had a long talk with the Count. I asked him a few
@@ -130,7 +130,7 @@
 				his race:--
 				</p>
 
-				<p><said><q>
+				<p><said who="#johnathan" aloud="false"><q who="#dracula">
 				"We Szekelys have a right to be proud, for in our veins flows the blood
 				of many brave races who fought as the lion fights, for lordship. Here,
 				in the whirlpool of European races, the Ugric tribe bore down from
@@ -184,9 +184,11 @@
 				everything has to break off at cockcrow--or like the ghost of Hamlet's
 				father.)
 				</p>
-
+				
+				</div>
 				<div><figure><p>*       *       *       *       *</p></figure></div>
 
+				<div>
 				<p>
 				<emph>12 May.</emph>--Let me begin with facts--bare, meagre facts, verified by
 				books and figures, and of which there can be no doubt. I must not
@@ -280,6 +282,7 @@
 				it was understood that my needs only were to be consulted. I have not
 				stinted. Is it not so?"
 				</p>
+					
 				<p>
 				What could I do but bow acceptance? It was Mr. Hawkins's interest, not
 				mine, and I had to think of him, not myself; and besides, while Count
@@ -343,9 +346,11 @@
 				dream could be more terrible than the unnatural, horrible net of gloom
 				and mystery which seemed closing around me.
 				</p>
-
+					
+				</div>
 				<div><figure><p>*       *       *       *       *</p></figure></div>
-
+				
+				<div>
 				<p>
 				<emph>Later.</emph>--I endorse the last words written, but this time there is no
 				doubt in question. I shall not fear to sleep in any place where he is
@@ -382,17 +387,17 @@
 				see the face, but I knew the man by the neck and the movement of his
 				back and arms. In any case I could not mistake the hands which I had had
 				so many opportunities of studying. I was at first interested and
-				somewhat amused, for it is wonderful how small a matter will interest
-				and amuse a man when he is a prisoner. But my very feelings changed to
+				somewhat amused, for <seg corresp="#madness"> it is wonderful how small a matter will interest
+				and amuse a man when he is a prisoner.</seg> But my very feelings changed to
 				repulsion and terror when I saw the whole man slowly emerge from the
 				window and begin to crawl down the castle wall over that dreadful abyss,
-				<emph>face down</emph> with his cloak spreading out around him like great wings. At
+				<seg corresp="#dracula"><emph>face down</emph> with his cloak spreading out around him like great wings. At
 				first I could not believe my eyes. I thought it was some trick of the
 				moonlight, some weird effect of shadow; but I kept looking, and it could
 				be no delusion. I saw the fingers and toes grasp the corners of the
 				stones, worn clear of the mortar by the stress of years, and by thus
 				using every projection and inequality move downwards with considerable
-				speed, just as a lizard moves along a wall.
+				speed, just as a lizard moves along a wall.</seg>
 				</p>
 
 				<p>
@@ -401,9 +406,9 @@
 				me; I am in fear--in awful fear--and there is no escape for me; I am
 				encompassed about with terrors that I dare not think of....
 				</p>
-
+				</div>
 				<div><figure><p>*       *       *       *       *</p></figure></div>
-
+				<div>
 				<p>
 					<emph>15 May.</emph>--Once more have I seen the Count go out in his lizard fashion.
 				He moved downwards in a sidelong way, some hundred feet down, and a good
@@ -459,9 +464,9 @@
 				senses deceive me, the old centuries had, and have, powers of their own
 				which mere "modernity" cannot kill.
 				</p>
-
+				</div>
 				<div><figure><p>*       *       *       *       *</p></figure></div>
-
+				<div>
 				<p>
 				<emph>Later: the Morning of 16 May.</emph>--God preserve my sanity, for to this I
 				am reduced. Safety and the assurance of safety are things of the past.
@@ -640,11 +645,14 @@
 					<birth>
 						<placeName></placeName>
 					</birth>
-					<death>November???</death>
+					<death when="--11-06">November 6th</death>
 				</person>
 
 				<person xml:id="johnathan">
-					<persName>Johnathan Harker</persName>
+					<persName>
+						<forename>Johnathan</forename>
+						<surname>Harker</surname>
+					</persName>
 					<birth>
 						<placeName>England</placeName>
 					</birth>
@@ -653,11 +661,11 @@
 			</listPerson>
 		</div>
 		<div type="themes">
-			<interGrp xml:id="health">
+			<interpGrp xml:id="health">
 				<interp xml:id="madness">Feeling of insanity</interp>
 				<interp xml:id="compulsion">Need</interp>
-
-			</interGrp>
+				<interp xml:id="humanity"></interp>
+			</interpGrp>
 		</div>
 	</back>
  </text>
