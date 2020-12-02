@@ -1,0 +1,130 @@
+<!-- Dracula Film -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+	   <title>Dracula</title>
+	  	<author>
+				Director: 
+		  	<persName>
+				  Tod Browning
+		  	</persName>
+				Screenplay Written by:
+				<persName>
+					Garrett Fort
+				</persName>
+	  	</author>
+   </titleStmt>
+   <publicationStmt>
+		 <publisher>
+			 Universal Pictures
+		 </publisher>
+		 <date when="1931-02-12"/>
+	 </publicationStmt>
+   <sourceDesc>
+		<biblStruct>
+			<monogr>
+				<author>
+					Director: 
+					<persName>
+						Tod Browning
+					</persName>
+					Screenplay Written by:
+					<persName>
+						Garrett Fort
+					</persName>
+				</author>
+				<title>Dracula</title>
+				<edition><!-- The digital edition I purchased from YouTube does not include this information--></edition>
+				<imprint>
+					<publisher>Universal Pictures</publisher>
+		 			<date when="1931-02-12"/>
+				</imprint>
+			</monogr>
+		</biblStruct>
+   </sourceDesc>
+  </fileDesc>
+	<encodingDesc>
+		<p>
+			To encode the Dracula Film, I will be selecting and marking up segments of 1931 film transcript.
+			In this marking up, I will make use of the &lt;sound&gt;, &lt;view&gt;, and &lt;camera&gt;
+			tags to describe details that would not be obvious in the film's transcript alone.
+		</p>
+		<p>
+			In addition to the film's transcript, I will link to images/frames from
+			the film in which a description would not easily suffice.
+		</p>
+		<p>
+			All segments I include, whether they be textual or visual, will link to a relevant theme in
+			themes.xml. Along with each link, there will be a footnote (in an interpretation tag) with my analysis and why I included
+			the segment in my mark up. 
+		</p>
+	</encodingDesc>
+ </teiHeader>
+ <text>
+  <body>
+		<div xml:id="come_here" type="transcript">
+			<seg corresp="./themes.xml#power">
+				<p><said who="dracula">DRACULA:</said>  Van Helsing!  Now that you have learned what you have
+				learned, it would be well for you to return to your own country.</p>
+
+				<p><said who="helsing">HELSING:</said>  I prefer to remain and protect those whom you would
+				destroy.</p>
+
+				<p><said who="dracula">DRACULA:</said>  You are too late.  My blood now flows through her
+				veins.  She will live through the centuries to come...as I have
+				lived.</p>
+
+				<p><said who="helsing">HELSING:</said>  Should you escape us, Dracula, we know how to save
+				Miss Mina's soul if not her life.</p>
+
+				<p><said who="dracula">DRACULA:</said>  If she dies by day.  But I shall see that she dies by
+				night.</p>
+
+				<p><said who="helsing">HELSING:</said>  And I will have Carfax Abbey torn down stone by stone,
+				excavated a mile around.  I will find your earth box and drive
+				that stake through your heart.</p>
+
+				<p>
+					<said who="dracula">DRACULA:</said> 
+					<view corresp="./images/come_here-dracula.png">The camera holds on Dracula with his arm lifted
+						beckoning Van Helsing</view>
+					Come here.
+					<camera corresp="./images/come_here-van_helsing.png">Cut to similar angle of Van Helsing</camera>
+					<sound>Long silence between the cuts to and from Dracula</sound>
+					Come...here.
+				</p>
+
+				<p><said who="helsing">HELSING:</said>  (Takes three steps toward Dracula, then backs up)</p>
+
+				<p><said>DRACULA:</said>  Your will is strong, Van Helsing.</p>
+
+				<p>Dracula approahces Van Helsing
+							Van Helsing reaches into his pocket</p>
+
+				<p><said who="dracula">DRACULA:</said>  More wolfbane?</p>
+
+				<p><said who="helsing">HELSING:</said>  More effective than wolfbane, Count.</p>
+
+				<p><said who="dracula">DRACULA:</said>  Indeed?</p>
+
+				<p>Van Helsing pulls out crucifix</p>
+
+				<p><said who="dracula">DRACULA:</said>  (snarls and turns away)</p>
+			</seg>
+			<interpretation>
+				<p>
+					Interpretation (roughly 200 words in length)
+				</p>
+			</interpretation>
+		</div>
+  </body>
+	<back>
+	</back>
+ </text>
+ </TEI>

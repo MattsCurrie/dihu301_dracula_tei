@@ -1,3 +1,4 @@
+<!-- Dracula Novel, CH3 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
@@ -29,6 +30,9 @@
 					<publisher>Project Gutenberg</publisher>
 					<date when="2013-08-16">16 August 2013</date>
 				</imprint>
+				<biblScope unit="chapter">
+					3
+				</biblScope>
 			</monogr>
 		</biblStruct>
    </sourceDesc>
